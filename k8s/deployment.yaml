@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: jenkins-demo
-          image: asia-southeast1-docker.pkg.dev/YOUR_GCP_PROJECT_ID/jenkins-demo/jenkins-demo:latest
+          image: northamerica-northeast1-docker.pkg.dev/off-net-dev/jenkins-demo/jenkins-demo:latest
           ports:
             - containerPort: 8080
 ---
